@@ -1,12 +1,6 @@
-# repositorio de practicas y ejemplos de tecnologias (WEB)
+# REACT
 
-### CSS 
-> Hojas de estilo
-
-### WEBPACK
-> empaquetador de modulos ó module bundler
-
-### REACT
+### Que es React
 > Libreria de JS - ES6
 > virtual DOM
 > JSX
