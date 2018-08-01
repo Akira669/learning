@@ -2,8 +2,7 @@
 	--font-text-p:12px;
 }
 .Content{
-	display: flex;
-	justify-content: center;
-	align-content: center;
 	font-size: var(--font-text-p);
+	display: block;
+	text-align: center;
 }
