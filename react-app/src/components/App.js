@@ -1,17 +1,21 @@
+// Dependecies
 import React, { Component } from 'react';
 
-//componenets
-import Header from './global/Header';
-import Content from './global/Content';
-import Footer from './global/Footer';
+// Componenets
+import Header from './Global/Header';
+import Content from './Global/Content';
+import Footer from './Global/Footer';
+
+// Data
+import Item from '../Data/Menu';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header />
+        <Header title="my-app-blog" items={Item}/>
         <Content />
-        <Footer />
+        <Footer copyright="&copy; Akira669 "/>
       </div>
     );
   }
